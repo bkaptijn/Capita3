@@ -1,0 +1,330 @@
+[
+  {
+    "text": "are there any flights between dallas and phoenix using a dc10 aircraft",
+    "intent": "atis_flight",
+    "intent_prediction": {
+      "name": "atis_aircraft",
+      "confidence": 0.844368040561676
+    }
+  },
+  {
+    "text": "give me the flights and fares for a trip to cleveland from miami on wednesday",
+    "intent": "atis_flight",
+    "intent_prediction": {
+      "name": "atis_flight#atis_airfare",
+      "confidence": 0.9329651594161987
+    }
+  },
+  {
+    "text": "how many northwest flights leave st. paul",
+    "intent": "atis_flight",
+    "intent_prediction": {
+      "name": "atis_quantity",
+      "confidence": 0.9990004897117615
+    }
+  },
+  {
+    "text": "how many northwest flights leave washington dc",
+    "intent": "atis_flight",
+    "intent_prediction": {
+      "name": "atis_quantity",
+      "confidence": 0.997817873954773
+    }
+  },
+  {
+    "text": "how many flights does northwest have leaving dulles",
+    "intent": "atis_flight",
+    "intent_prediction": {
+      "name": "atis_quantity",
+      "confidence": 0.9993557333946228
+    }
+  },
+  {
+    "text": "list all flights on all types of aircraft arriving in denver between 8 and 9 pm",
+    "intent": "atis_flight",
+    "intent_prediction": {
+      "name": "atis_aircraft",
+      "confidence": 0.487112820148468
+    }
+  },
+  {
+    "text": "how many flights does alaska airlines have to burbank",
+    "intent": "atis_flight",
+    "intent_prediction": {
+      "name": "atis_quantity",
+      "confidence": 0.999946117401123
+    }
+  },
+  {
+    "text": "list fares from washington dc to toronto that should be good",
+    "intent": "atis_airfare",
+    "intent_prediction": {
+      "name": "atis_flight_time",
+      "confidence": 0.537778913974762
+    }
+  },
+  {
+    "text": "i need the fares on flights from washington to toronto on a saturday",
+    "intent": "atis_airfare",
+    "intent_prediction": {
+      "name": "atis_flight#atis_airfare",
+      "confidence": 0.5469523072242737
+    }
+  },
+  {
+    "text": "show flight and prices kansas city to chicago on next wednesday arriving in chicago by 7 pm",
+    "intent": "atis_flight#atis_airfare",
+    "intent_prediction": {
+      "name": "atis_flight",
+      "confidence": 0.44473493099212646
+    }
+  },
+  {
+    "text": "list all sunday flights from cleveland to nashville and their fares",
+    "intent": "atis_flight#atis_airfare",
+    "intent_prediction": {
+      "name": "atis_flight",
+      "confidence": 0.5527825355529785
+    }
+  },
+  {
+    "text": "i need a round trip flight from san diego to washington dc and the fares",
+    "intent": "atis_flight#atis_airfare",
+    "intent_prediction": {
+      "name": "atis_flight",
+      "confidence": 0.9948248863220215
+    }
+  },
+  {
+    "text": "i need a round trip from atlanta to washington dc and the fares leaving in the morning",
+    "intent": "atis_flight#atis_airfare",
+    "intent_prediction": {
+      "name": "atis_airfare",
+      "confidence": 0.9942708015441895
+    }
+  },
+  {
+    "text": "i need a round trip from phoenix to washington dc and the fare leaving in the morning",
+    "intent": "atis_flight#atis_airfare",
+    "intent_prediction": {
+      "name": "atis_flight",
+      "confidence": 0.9120361804962158
+    }
+  },
+  {
+    "text": "i need flight and fare information for thursday departing prior to 9 am from oakland going to salt lake city",
+    "intent": "atis_flight#atis_airfare",
+    "intent_prediction": {
+      "name": "atis_flight",
+      "confidence": 0.9999017715454102
+    }
+  },
+  {
+    "text": "i need flight and fare information departing from oakland to salt lake city on thursday before 8 am",
+    "intent": "atis_flight#atis_airfare",
+    "intent_prediction": {
+      "name": "atis_flight",
+      "confidence": 0.9999935626983643
+    }
+  },
+  {
+    "text": "show me the nonstop flights and fares from toronto to st. petersburg",
+    "intent": "atis_flight#atis_airfare",
+    "intent_prediction": {
+      "name": "atis_flight",
+      "confidence": 0.9967520236968994
+    }
+  },
+  {
+    "text": "list flights and fares from tacoma to orlando round trip leaving saturday returning next saturday",
+    "intent": "atis_flight#atis_airfare",
+    "intent_prediction": {
+      "name": "atis_flight",
+      "confidence": 0.9806990027427673
+    }
+  },
+  {
+    "text": "what day of the week do flights from nashville to tacoma fly on",
+    "intent": "atis_day_name",
+    "intent_prediction": {
+      "name": "atis_flight",
+      "confidence": 0.9999978542327881
+    }
+  },
+  {
+    "text": "what days of the week do flights from san jose to nashville fly on",
+    "intent": "atis_day_name",
+    "intent_prediction": {
+      "name": "atis_flight",
+      "confidence": 0.9999768733978271
+    }
+  },
+  {
+    "text": "are snacks served on tower air",
+    "intent": "atis_meal",
+    "intent_prediction": {
+      "name": "atis_flight",
+      "confidence": 0.9999549388885498
+    }
+  },
+  {
+    "text": "which airport is closest to ontario california",
+    "intent": "atis_airport",
+    "intent_prediction": {
+      "name": "atis_flight",
+      "confidence": 0.5446500182151794
+    }
+  },
+  {
+    "text": "list airports in arizona nevada and california please",
+    "intent": "atis_airport",
+    "intent_prediction": {
+      "name": "atis_flight",
+      "confidence": 0.9983231425285339
+    }
+  },
+  {
+    "text": "list california nevada arizona airports",
+    "intent": "atis_airport",
+    "intent_prediction": {
+      "name": "atis_flight",
+      "confidence": 0.9170491695404053
+    }
+  },
+  {
+    "text": "tell me all the airports near westchester county",
+    "intent": "atis_airport",
+    "intent_prediction": {
+      "name": "atis_flight",
+      "confidence": 0.6882084608078003
+    }
+  },
+  {
+    "text": "tell me all the airports in the new york city area",
+    "intent": "atis_airport",
+    "intent_prediction": {
+      "name": "atis_flight",
+      "confidence": 0.5542296767234802
+    }
+  },
+  {
+    "text": "show me airlines that have flights between toronto and detroit between detroit and st. louis and between st. louis and toronto",
+    "intent": "atis_airline",
+    "intent_prediction": {
+      "name": "atis_flight",
+      "confidence": 0.509811282157898
+    }
+  },
+  {
+    "text": "to what cities from boston does america west fly first class",
+    "intent": "atis_city",
+    "intent_prediction": {
+      "name": "atis_flight",
+      "confidence": 0.9997250437736511
+    }
+  },
+  {
+    "text": "list la",
+    "intent": "atis_city",
+    "intent_prediction": {
+      "name": "atis_flight",
+      "confidence": 0.9985151886940002
+    }
+  },
+  {
+    "text": "what's the fare for a taxi to denver",
+    "intent": "atis_ground_fare",
+    "intent_prediction": {
+      "name": "atis_airfare",
+      "confidence": 0.9967015385627747
+    }
+  },
+  {
+    "text": "what are the fares for ground transportation in denver",
+    "intent": "atis_ground_fare",
+    "intent_prediction": {
+      "name": "atis_ground_service",
+      "confidence": 0.9757770299911499
+    }
+  },
+  {
+    "text": "how many canadian airlines flights use aircraft dh8",
+    "intent": "atis_quantity",
+    "intent_prediction": {
+      "name": "atis_aircraft",
+      "confidence": 0.5150805711746216
+    }
+  },
+  {
+    "text": "list the distance in miles from boston airport to downtown boston",
+    "intent": "atis_distance",
+    "intent_prediction": {
+      "name": "atis_ground_service",
+      "confidence": 0.5587104558944702
+    }
+  },
+  {
+    "text": "at the charlotte airport how many different types of aircraft are there for us air",
+    "intent": "atis_aircraft",
+    "intent_prediction": {
+      "name": "atis_capacity",
+      "confidence": 0.5291470289230347
+    }
+  },
+  {
+    "text": "list the airfare for american airlines flight 19 from jfk to lax",
+    "intent": "atis_airfare#atis_flight",
+    "intent_prediction": {
+      "name": "atis_airfare",
+      "confidence": 0.9994924068450928
+    }
+  },
+  {
+    "text": "list seating capacities of delta flights from seattle to salt lake city",
+    "intent": "atis_capacity",
+    "intent_prediction": {
+      "name": "atis_flight",
+      "confidence": 0.9998072981834412
+    }
+  },
+  {
+    "text": "what is seating capacity on the aircraft 73s",
+    "intent": "atis_capacity",
+    "intent_prediction": {
+      "name": "atis_aircraft",
+      "confidence": 0.7386708855628967
+    }
+  },
+  {
+    "text": "i need flight and airline information for a flight from denver to salt lake city on monday departing after 5 pm",
+    "intent": "atis_flight#atis_airline",
+    "intent_prediction": {
+      "name": "atis_flight",
+      "confidence": 0.9999990463256836
+    }
+  },
+  {
+    "text": "i need flight numbers and airlines for flights departing from oakland to salt lake city on thursday departing before 8 am",
+    "intent": "atis_flight_no#atis_airline",
+    "intent_prediction": {
+      "name": "atis_flight",
+      "confidence": 0.9755776524543762
+    }
+  },
+  {
+    "text": "i need flight numbers for those flights departing on thursday before 8 am from oakland going to salt lake city",
+    "intent": "atis_flight_no",
+    "intent_prediction": {
+      "name": "atis_flight",
+      "confidence": 0.9994476437568665
+    }
+  },
+  {
+    "text": "i need the flight numbers of flights leaving from cleveland and arriving at dallas",
+    "intent": "atis_flight_no",
+    "intent_prediction": {
+      "name": "atis_flight",
+      "confidence": 0.7026572823524475
+    }
+  }
+]

@@ -1,0 +1,37 @@
+baskaptijn@laptop-van-bas config-ATIS-sparse % rasa train nlu --nlu ./data -c ./config-ATIS-sparse.yml -d domain.yml   
+/Users/baskaptijn/Library/Python/3.9/lib/python/site-packages/rasa/core/tracker_store.py:1044: MovedIn20Warning: Deprecated API features detected! These feature(s) are not compatible with SQLAlchemy 2.0. To prevent incompatible upgrades prior to updating applications, ensure requirements files are pinned to "sqlalchemy<2.0". Set environment variable SQLALCHEMY_WARN_20=1 to show all deprecation warnings.  Set environment variable SQLALCHEMY_SILENCE_UBER_WARNING=1 to silence this message. (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  Base: DeclarativeMeta = declarative_base()
+/Users/baskaptijn/Library/Python/3.9/lib/python/site-packages/rasa/shared/utils/validation.py:134: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+  import pkg_resources
+/Users/baskaptijn/Library/Python/3.9/lib/python/site-packages/pkg_resources/__init__.py:2832: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('mpl_toolkits')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/Users/baskaptijn/Library/Python/3.9/lib/python/site-packages/pkg_resources/__init__.py:2832: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('ruamel')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/Users/baskaptijn/Library/Python/3.9/lib/python/site-packages/rasa/engine/recipes/recipe.py:35: FutureWarning: From Rasa Open Source 4.0.0 onwards it will be required to specify a recipe in your model configuration. Defaulting to recipe 'default.v1'.
+  rasa.shared.utils.io.raise_deprecation_warning(
+/Users/baskaptijn/Library/Python/3.9/lib/python/site-packages/rasa/shared/utils/io.py:99: UserWarning: Intent 'atis_aircraft#atis_flight#atis_flight_no' has only 1 training examples! Minimum is 2, training may fail.
+/Users/baskaptijn/Library/Python/3.9/lib/python/site-packages/rasa/shared/utils/io.py:99: UserWarning: Intent 'atis_cheapest' has only 1 training examples! Minimum is 2, training may fail.
+/Users/baskaptijn/Library/Python/3.9/lib/python/site-packages/rasa/shared/utils/io.py:99: UserWarning: Intent 'atis_ground_service#atis_ground_fare' has only 1 training examples! Minimum is 2, training may fail.
+/Users/baskaptijn/Library/Python/3.9/lib/python/site-packages/rasa/shared/utils/io.py:99: UserWarning: Entity entity 'arrive_date.today_relative' has only 1 training examples! The minimum is 2, because of this the training may fail.
+/Users/baskaptijn/Library/Python/3.9/lib/python/site-packages/rasa/shared/utils/io.py:99: UserWarning: Entity entity 'days_code' has only 1 training examples! The minimum is 2, because of this the training may fail.
+/Users/baskaptijn/Library/Python/3.9/lib/python/site-packages/rasa/shared/utils/io.py:99: UserWarning: Entity entity 'return_date.day_name' has only 1 training examples! The minimum is 2, because of this the training may fail.
+/Users/baskaptijn/Library/Python/3.9/lib/python/site-packages/rasa/shared/utils/io.py:99: UserWarning: Entity entity 'return_date.today_relative' has only 1 training examples! The minimum is 2, because of this the training may fail.
+/Users/baskaptijn/Library/Python/3.9/lib/python/site-packages/rasa/shared/utils/io.py:99: UserWarning: Entity entity 'state_name' has only 1 training examples! The minimum is 2, because of this the training may fail.
+/Users/baskaptijn/Library/Python/3.9/lib/python/site-packages/rasa/shared/utils/io.py:99: UserWarning: Entity entity 'stoploc.airport_name' has only 1 training examples! The minimum is 2, because of this the training may fail.
+/Users/baskaptijn/Library/Python/3.9/lib/python/site-packages/rasa/shared/utils/io.py:99: UserWarning: Entity entity 'time_relative' has only 1 training examples! The minimum is 2, because of this the training may fail.
+2024-04-19 17:50:13 INFO     rasa.engine.training.hooks  - Starting to train component 'CountVectorsFeaturizer'.
+2024-04-19 17:50:13 INFO     rasa.nlu.featurizers.sparse_featurizer.count_vectors_featurizer  - 710 vocabulary items were created for text attribute.
+2024-04-19 17:50:13 INFO     rasa.engine.training.hooks  - Finished training component 'CountVectorsFeaturizer'.
+2024-04-19 17:50:15 INFO     rasa.engine.training.hooks  - Starting to train component 'CountVectorsFeaturizer'.
+2024-04-19 17:50:15 INFO     rasa.nlu.featurizers.sparse_featurizer.count_vectors_featurizer  - 5999 vocabulary items were created for text attribute.
+2024-04-19 17:50:15 INFO     rasa.engine.training.hooks  - Finished training component 'CountVectorsFeaturizer'.
+2024-04-19 17:50:18 INFO     rasa.engine.training.hooks  - Starting to train component 'DIETClassifier'.
+/Users/baskaptijn/Library/Python/3.9/lib/python/site-packages/rasa/utils/train_utils.py:530: UserWarning: constrain_similarities is set to `False`. It is recommended to set it to `True` when using cross-entropy loss.
+  rasa.shared.utils.io.raise_warning(
+2024-04-19 17:50:19 WARNING  absl  - At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
+2024-04-19 17:50:19 WARNING  absl  - There is a known slowdown when using v2.11+ Keras optimizers on M1/M2 Macs. Falling back to the legacy Keras optimizer, i.e., `tf.keras.optimizers.legacy.Adam`.
+Epochs:   9%|███████████▉                                                                                                                         | 18/200 [1:10:14<4:12:15, 83.16s/it, t_loss=8.01, m_acc=0.606, i_acc=0.989, e_f1=0.91]Epochs: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 200/200 [4:24:37<00:00, 79.39s/it, t_loss=6.2, m_acc=0.821, i_acc=0.995, e_f1=0.971]
+2024-04-19 22:14:57 INFO     rasa.engine.training.hooks  - Finished training component 'DIETClassifier'.
+Your Rasa model is trained and saved at 'models/nlu-20240419-175013-savage-aerator.tar.gz'.

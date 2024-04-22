@@ -1,0 +1,200 @@
+{
+  "atis_ground_fare": {
+    "precision": 1.0,
+    "recall": 0.7142857142857143,
+    "f1-score": 0.8333333333333333,
+    "support": 7,
+    "confused_with": {
+      "atis_ground_service": 1,
+      "atis_airfare": 1
+    }
+  },
+  "atis_flight_no#atis_airline": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1,
+    "confused_with": {
+      "atis_flight": 1
+    }
+  },
+  "atis_ground_service": {
+    "precision": 0.9473684210526315,
+    "recall": 1.0,
+    "f1-score": 0.972972972972973,
+    "support": 36,
+    "confused_with": {}
+  },
+  "atis_flight_no": {
+    "precision": 1.0,
+    "recall": 0.75,
+    "f1-score": 0.8571428571428571,
+    "support": 8,
+    "confused_with": {
+      "atis_flight": 2
+    }
+  },
+  "atis_flight#atis_airfare": {
+    "precision": 0.6,
+    "recall": 0.25,
+    "f1-score": 0.35294117647058826,
+    "support": 12,
+    "confused_with": {
+      "atis_flight": 8,
+      "atis_airfare": 1
+    }
+  },
+  "atis_flight_time": {
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1-score": 0.6666666666666666,
+    "support": 1,
+    "confused_with": {}
+  },
+  "atis_flight": {
+    "precision": 0.9619047619047619,
+    "recall": 0.9885807504078303,
+    "f1-score": 0.9750603378921963,
+    "support": 613,
+    "confused_with": {
+      "atis_quantity": 4,
+      "atis_aircraft": 2
+    }
+  },
+  "atis_quantity": {
+    "precision": 0.3333333333333333,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.4444444444444444,
+    "support": 3,
+    "confused_with": {
+      "atis_aircraft": 1
+    }
+  },
+  "atis_day_name": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2,
+    "confused_with": {
+      "atis_flight": 2
+    }
+  },
+  "atis_city": {
+    "precision": 1.0,
+    "recall": 0.6,
+    "f1-score": 0.7499999999999999,
+    "support": 5,
+    "confused_with": {
+      "atis_flight": 2
+    }
+  },
+  "atis_abbreviation": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 26,
+    "confused_with": {}
+  },
+  "atis_distance": {
+    "precision": 1.0,
+    "recall": 0.9,
+    "f1-score": 0.9473684210526316,
+    "support": 10,
+    "confused_with": {
+      "atis_ground_service": 1
+    }
+  },
+  "atis_capacity": {
+    "precision": 0.95,
+    "recall": 0.9047619047619048,
+    "f1-score": 0.9268292682926829,
+    "support": 21,
+    "confused_with": {
+      "atis_aircraft": 1,
+      "atis_flight": 1
+    }
+  },
+  "atis_aircraft": {
+    "precision": 0.6363636363636364,
+    "recall": 0.875,
+    "f1-score": 0.7368421052631579,
+    "support": 8,
+    "confused_with": {
+      "atis_capacity": 1
+    }
+  },
+  "atis_airport": {
+    "precision": 1.0,
+    "recall": 0.6153846153846154,
+    "f1-score": 0.761904761904762,
+    "support": 13,
+    "confused_with": {
+      "atis_flight": 5
+    }
+  },
+  "atis_airline": {
+    "precision": 1.0,
+    "recall": 0.9642857142857143,
+    "f1-score": 0.9818181818181818,
+    "support": 28,
+    "confused_with": {
+      "atis_flight": 1
+    }
+  },
+  "atis_meal": {
+    "precision": 1.0,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.9090909090909091,
+    "support": 6,
+    "confused_with": {
+      "atis_flight": 1
+    }
+  },
+  "atis_flight#atis_airline": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1,
+    "confused_with": {
+      "atis_flight": 1
+    }
+  },
+  "atis_airfare": {
+    "precision": 0.9387755102040817,
+    "recall": 0.9583333333333334,
+    "f1-score": 0.9484536082474228,
+    "support": 48,
+    "confused_with": {
+      "atis_flight_time": 1,
+      "atis_flight#atis_airfare": 1
+    }
+  },
+  "atis_airfare#atis_flight": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1,
+    "confused_with": {
+      "atis_airfare": 1
+    }
+  },
+  "accuracy": 0.951764705882353,
+  "macro avg": {
+    "precision": 0.6933872831429222,
+    "recall": 0.6510316016229557,
+    "f1-score": 0.6532434522296403,
+    "support": 850
+  },
+  "weighted avg": {
+    "precision": 0.9477117832779044,
+    "recall": 0.951764705882353,
+    "f1-score": 0.946614835054044,
+    "support": 850
+  },
+  "micro avg": {
+    "precision": 0.951764705882353,
+    "recall": 0.951764705882353,
+    "f1-score": 0.951764705882353,
+    "support": 850
+  }
+}

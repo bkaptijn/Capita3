@@ -1,0 +1,36 @@
+language: en
+
+pipeline:
+- name: "WhitespaceTokenizer"
+- name: "CountVectorsFeaturizer"
+  analyzer: "word"
+  min_ngram: 1
+  max_ngram: 1
+- name: "CountVectorsFeaturizer"
+  analyzer: "char_wb"
+  min_ngram: 1
+  max_ngram: 5
+- name: "DIETClassifier"
+  epochs: 200
+  batch_size: [64, 128]
+  entity_recognition: true
+  BILOU_flag: true
+  intent_classification: true
+  use_masked_language_model: true
+  transformer_size: 256
+  number_of_transformer_layers: 2
+  number_of_attention_heads: 4
+  hidden_layers_sizes:
+    text: []
+    label: []
+  dense_dim:
+    text: 512
+    label: 20
+  scale_loss: false
+  use_sparse_input_dropout: true
+  weight_sparsity: 0
+
+data:
+  train_file: "data/ATIS/train.md"
+  test_file: "data/ATIS/test.md"
+assistant_id: 20240419-142743-coral-tartar
